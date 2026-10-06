@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>ImpulsoZaks · Creator</title>
+<meta name="description" content="Zaks (@ImpulsoZaks). Creator. Conveying brand concepts. Open for collabs." />
+<meta property="og:image" content="https://pbs.twimg.com/profile_images/2062770231483781120/RH6eiaz7.jpg" />
+<style>
+  :root { --bg:#0c0d0c; --card:#161815; --card2:#1e221c; --line:#2c3328; --gold:#c6a15b; --gold2:#e4c98a; --green:#3d8f62; --text:#f6f3ea; --mute:#c9c2b0; --soft:#8d8778; }
+  [data-theme="light"] { --bg:#f7f4ec; --card:#fff; --card2:#efe8d8; --line:#e4dcc8; --gold:#8a6a2f; --gold2:#6d5424; --green:#1f6b45; --text:#16140f; --mute:#5c5648; --soft:#9a917e; }
+  * { box-sizing:border-box; margin:0; padding:0; }
+  body { font-family:Inter,system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.55; }
+  .wrap { width:min(1080px, calc(100% - 36px)); margin:0 auto; }
+  a { color:inherit; text-decoration:none; } img { display:block; max-width:100%; }
+  header { position:sticky; top:0; z-index:20; background:color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter:blur(14px); border-bottom:1px solid var(--line); }
+  .nav { display:flex; align-items:center; justify-content:space-between; padding:14px 0; }
+  .logo { letter-spacing:.18em; font-size:12px; color:var(--gold2); font-weight:700; }
+  nav { display:flex; gap:18px; align-items:center; font-size:13px; color:var(--mute); }
+  .tog { border:1px solid var(--line); background:transparent; color:var(--mute); border-radius:999px; padding:6px 12px; font-size:11px; letter-spacing:.08em; text-transform:uppercase; cursor:pointer; }
+  .hero { display:grid; grid-template-columns:1.15fr .85fr; gap:48px; align-items:center; padding:72px 0 48px; }
+  .avail { color:var(--gold2); font-size:12px; letter-spacing:.16em; text-transform:uppercase; margin-bottom:18px; font-weight:700; }
+  h1 { font-size:clamp(48px, 8vw, 84px); font-weight:800; letter-spacing:-.05em; line-height:.9; margin-bottom:14px; }
+  .sub, .lead, .stat span, .card p, .work p { color:var(--mute); }
+  .sub { margin-bottom:22px; } .sub b { color:var(--gold2); }
+  .obj { max-width:540px; border-left:3px solid var(--green); background:rgba(61,143,98,.12); padding:16px 18px; border-radius:0 12px 12px 0; }
+  .obj small { display:block; color:var(--gold2); letter-spacing:.14em; font-size:11px; text-transform:uppercase; margin-bottom:6px; font-weight:700; }
+  .row { display:flex; flex-wrap:wrap; gap:10px; margin-top:26px; }
+  .btn { display:inline-flex; border-radius:999px; padding:11px 18px; font-size:14px; font-weight:600; border:1px solid var(--line); background:var(--card); }
+  .fill { background:var(--green); color:#fff; border-color:var(--green); }
+  .portrait, .stat, .card, .work { background:var(--card); border:1px solid var(--line); border-radius:18px; }
+  .portrait { padding:14px; border-radius:28px; }
+  .portrait img { width:100%; border-radius:20px; aspect-ratio:1; object-fit:cover; }
+  .chips { display:flex; flex-wrap:wrap; gap:8px; margin-top:14px; }
+  .chip { font-size:12px; color:var(--gold2); border:1px solid var(--line); border-radius:999px; padding:6px 10px; font-weight:600; }
+  section { padding:28px 0 8px; }
+  .kicker { color:var(--gold2); letter-spacing:.14em; font-size:12px; font-weight:700; margin-bottom:8px; }
+  h2 { font-size:clamp(28px, 4vw, 40px); letter-spacing:-.04em; margin-bottom:12px; }
+  .lead { max-width:700px; margin-bottom:18px; }
+  .stats, .grid3 { display:grid; gap:12px; }
+  .stats { grid-template-columns:repeat(4,1fr); } .grid3 { grid-template-columns:repeat(3,1fr); }
+  .stat, .card, .work { padding:18px; }
+  .stat strong { display:block; font-size:28px; }
+  .work { margin-bottom:12px; }
+  .work a { color:var(--gold2); font-weight:600; font-size:13px; display:inline-block; margin-top:12px; }
+  .shot { border-radius:14px; border:1px solid var(--line); margin-top:12px; width:100%; }
+  .quote { margin:22px 0; padding:22px; border-radius:18px; background:var(--card2); border:1px solid var(--line); font-size:18px; }
+  .quote small { display:block; margin-top:8px; color:var(--mute); font-size:13px; }
+  .hire { text-align:center; padding:42px 0 64px; }
+  footer { border-top:1px solid var(--line); color:var(--soft); font-size:13px; display:flex; justify-content:space-between; padding:18px 0 28px; }
+  @media (max-width:800px) { .hero, .grid3, .stats { grid-template-columns:1fr; } nav a { display:none; } }
+</style>
+</head>
+<body>
+<header><div class="wrap nav"><a class="logo" href="#top">IMPULSOZAKS</a><nav><a href="#work">Work</a><a href="#hire">Hire</a><button class="tog" id="theme" type="button">Light</button></nav></div></header>
+<main class="wrap">
+  <section class="hero">
+    <div>
+      <p class="avail">Open for collabs</p>
+      <h1>ImpulsoZaks</h1>
+      <p class="sub">Creator <b>·</b> Brand posts <b>·</b> Web3 content</p>
+      <div class="obj"><small>// objective_</small>Conveying the concept of a brand to the world. The post should make the product make sense.</div>
+      <div class="row"><a class="btn fill" href="https://x.com/ImpulsoZaks" target="_blank" rel="noopener">DM on X</a><a class="btn" href="https://t.me/Impulsozaks" target="_blank" rel="noopener">Telegram</a></div>
+    </div>
+    <div class="portrait"><img src="https://pbs.twimg.com/profile_images/2062770231483781120/RH6eiaz7.jpg" alt="Zaks" /><div class="chips"><span class="chip">@ImpulsoZaks</span><span class="chip">4.2K on X</span><span class="chip">Zaks</span></div></div>
+  </section>
+  <section>
+    <p class="kicker">// about_</p><h2>Who I am</h2>
+    <p class="lead">I’m Zaks. Content writer and UGC creator. BD for Victus Global, creator at Aisar Labs. I write the post that explains the brand, not the slogan.</p>
+    <p class="lead">Open for collabs. Brand posts, threads, and creator work.</p>
+    <div class="stats"><div class="stat"><strong>4.2K</strong><span>X followers</span></div><div class="stat"><strong>24.6K</strong><span>Views on POTS</span></div><div class="stat"><strong>12.8K</strong><span>Views on Punch</span></div><div class="stat"><strong>174</strong><span>Likes on Punch</span></div></div>
+  </section>
+  <section>
+    <p class="kicker">// what you are hiring_</p><h2>What I offer</h2>
+    <div class="grid3"><article class="card"><h3>Brand posts</h3><p>The concept, in a post people finish. Product first, then the line.</p></article><article class="card"><h3>Explainers</h3><p>Threads that separate the tool from the slogan. Bridge vs swap. 1-minute markets.</p></article><article class="card"><h3>Creator work</h3><p>UGC and ambassador posts. Victus, Aisar, and campaign seats.</p></article></div>
+  </section>
+  <section id="work">
+    <p class="kicker">// selected work_</p><h2>Proof of work</h2>
+    <article class="work"><p class="kicker">POTS · 24.6K VIEWS</p><h3>Mechanics, not the flywheel line</h3><p>Dual token, closed loop, on-chain trust, the $1M creator fund. 168 likes, 56 reposts. What the evidence supports, and what it does not.</p><a href="https://x.com/ImpulsoZaks/status/2053037081899733179" target="_blank" rel="noopener">Open post →</a></article>
+    <article class="work"><p class="kicker">PUNCH · 12.8K VIEWS</p><h3>Not another prediction market</h3><p>1-minute BTC rounds, maker fee at zero, free points to learn it. 174 likes, 141 replies.</p><img class="shot" src="https://pbs.twimg.com/media/HRq09EoXUAAjpry.jpg" alt="Punch post" /><a href="https://x.com/ImpulsoZaks/status/2097187550129463686" target="_blank" rel="noopener">Open post →</a></article>
+    <article class="work"><p class="kicker">ROCKETX · 3.4K VIEWS</p><h3>A bridge is not a swap</h3><p>Same asset across chains, or asset and chain in one step. 120 likes.</p><img class="shot" src="https://pbs.twimg.com/media/HTH7Mn7W4AAcC-n.jpg" alt="RocketX thread" /><a href="https://x.com/ImpulsoZaks/status/2103738716741153212" target="_blank" rel="noopener">Open thread →</a></article>
+    <div class="quote">“Conveying the concept of brands to the world.”<small>The post is the explanation. The brand comes after it lands.</small></div>
+  </section>
+  <section class="hire" id="hire"><p class="kicker">// let’s work_</p><h2>Open for collabs</h2><p class="lead">Brand posts, explainers, creator seats.</p><div class="row" style="justify-content:center"><a class="btn fill" href="https://x.com/ImpulsoZaks">@ImpulsoZaks</a><a class="btn" href="https://t.me/Impulsozaks">t.me/Impulsozaks</a></div></section>
+</main>
+<footer class="wrap"><span>ImpulsoZaks</span><span>@ImpulsoZaks · t.me/Impulsozaks</span></footer>
+<script>const btn=document.getElementById("theme");btn.onclick=()=>{const l=document.body.dataset.theme==="light";document.body.dataset.theme=l?"":"light";btn.textContent=l?"Light":"Dark";};</script>
+</body></html>
